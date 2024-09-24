@@ -14,7 +14,7 @@ def plot_times(runtime):
          markeredgecolor="grey",
          markeredgewidth=1) 
 
-    plt.xticks(runtime, fontsize=10)
+    # plt.xticks(runtime, fontsize=10)
     plt.xlabel("Times", fontsize=15)
     plt.ylabel("Runtime", fontsize=15)
     plt.grid()
